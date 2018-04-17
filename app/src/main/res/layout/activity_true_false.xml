@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jihon.cst2335_final_project.Main2Activity">
+
+
+    <LinearLayout
+        android:id="@+id/button_tfrow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button android:layout_weight="1"
+            android:text="@string/mc_quiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mc_tfbutton"
+            android:background="@android:color/holo_orange_light"/>
+
+        <Button
+            android:layout_weight="1"
+            android:text="@string/numeric_quiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nu_tfbutton"
+            android:background="@android:color/holo_green_light"/>
+        <Button
+            android:layout_weight="1"
+            android:text="@string/quiz_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/main_tfbutton"
+            android:background="@android:color/holo_orange_light"/>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/tfprogressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="106dp"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/tfcreateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tfparseButton"
+        android:layout_alignBottom="@+id/tfparseButton"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="49dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="@string/create_button" />
+
+    <Button
+        android:id="@+id/tfparseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/button_tfrow"
+        android:layout_marginBottom="33dp"
+        android:drawableLeft="@drawable/map"
+        android:text="@string/parse_text" />
+
+
+    <ListView android:id="@+id/tfListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/button_tfrow"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_blue_light"
+        android:textAppearance="@android:style/TextAppearance.Holo.Large" />
+
+
+
+</RelativeLayout>
+

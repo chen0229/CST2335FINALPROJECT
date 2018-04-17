@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jihon.cst2335_final_project.QuizCreator">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mcquestion_text"
+        android:hint="@string/add_question"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:background="@android:color/holo_blue_light"
+        android:padding="6dp"
+        android:layout_marginBottom="15dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mcchoice1_text"
+        android:hint="@string/answer_1"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/holo_green_light" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mcchoice2_text"
+        android:hint="@string/answer_2"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/holo_orange_light" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mcchoice3_text"
+        android:hint="@string/answer_3"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/holo_blue_light" />
+
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/mcchoice4_text"
+    android:hint="@string/answer_4"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+    android:layout_marginBottom="20dp"
+    android:background="@android:color/holo_blue_light" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mccorectAnswer"
+        android:hint="@string/correct_answer"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/holo_blue_light" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+
+        <Button android:layout_weight="1"
+            android:text="@string/edit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editMCButton"
+            android:background="@android:color/holo_orange_light"/>
+
+
+        <Button
+            android:layout_weight="1"
+            android:text="@string/close_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/closeMCButton"
+            android:background="@android:color/holo_blue_light"/>
+
+        <Button
+            android:layout_weight="1"
+            android:text="@string/delete_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/deleteMCButton"
+            android:background="@android:color/holo_green_light"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+

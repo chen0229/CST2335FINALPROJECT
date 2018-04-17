@@ -1,3 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CST2335-FINAL-PROJECT</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="help">Help</string>
+    <string name="ok">Ok</string>
+    <string name="about">About</string>
+    <string name="mainTitle">CST2335 Final Project</string>
+    <string name="movieAppDesc">Movie Information Selected</string>
+
+    <string name="create_button">Add Entry</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="edit_button">Edit</string>
+    <string name="close_button">Close</string>
+    <string name="delete_button">Delete</string>
+    <string name="add_question">Add Question</string>
+    <string name="correct_answer">Correct Answer</string>
+
+    <string name="answer_1">Choice1</string>
+    <string name="answer_2">Choice2</string>
+    <string name="answer_3">Choice3</string>
+    <string name="answer_4">Choice4</string>
+
+    <string name="home">Home</string>
+    <string name="mc_quiz">Multiple Choice</string>
+    <string name="tf_quiz">True/False</string>
+    <string name="numeric_quiz">Numeric</string>
+    <string name="quiz_main">Quiz Main</string>
+
+    <string name="quiz_snackbar">Entry is deleted successfully.</string>
+    <string name="quiz_aboutMes">Quiz activity, version 1</string>
+    <string name="stats_length">Statistics</string>
+    <string name="parse_text">Parse XML</string>
+    <string name="validateDialogTitle">Please try again.</string>
+    <string name="validateMessage">You must enter a question.</string>
+    <string name="addQuestionMessage">Question has been added.</string>
+    <string name="editQuestionMessage">Question has been edited.</string>
+    <string name="content_detail">There is content in QuizDetails</string>
+    <string name="quiz_title">Quiz Creator</string>
+    <string name="quiz_dialog_message">Quiz Creator, by Jihong Chen, version 1.
+        Choose one kind of quizs from the three kinds of questions to start the activity</string>string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_multiple_choice">MultipleChoiceActivity</string>
+
+
+
 </resources>

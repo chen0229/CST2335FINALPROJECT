@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jihon.cst2335_final_project.QuizCreator">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tfquestion"
+        android:hint="@string/add_question"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:background="@android:color/holo_blue_light"
+        android:padding="6dp"
+        android:layout_marginBottom="15dp"
+        />
+
+    <EditText
+        android:id="@+id/tfAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/holo_blue_light"
+        android:hint="@string/correct_answer"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/addTFButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/holo_orange_light"
+            android:text="@string/add_question" />
+
+
+        <Button
+            android:id="@+id/cancelTFButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_light"
+            android:text="@string/cancel_button" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+

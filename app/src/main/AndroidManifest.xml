@@ -2,24 +2,37 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.jihon.cst2335_final_project">
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".Main2Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity" />
         <activity android:name=".QuizCreator" />
         <activity android:name=".Movie" />
         <activity android:name=".OCTranspo" />
-        <activity android:name=".PatientIntake"></activity>
+        <activity android:name=".PatientIntake" />
+        <activity
+            android:name=".MultipleChoiceActivity"
+            android:label="@string/title_activity_multiple_choice"
+            /><activity
+        android:name=".MultipleChoiceDetail"  />
+
+        <activity android:name=".TrueFalseActivity" />
+        <activity android:name=".NumericActivity"/>
+        <activity android:name=".TrueFalseDetail" />
+        <activity android:name=".NumericDetail"/>
+
     </application>
 
 </manifest>

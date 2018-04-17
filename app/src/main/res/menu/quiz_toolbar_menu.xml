@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="ocTranspo"
+        app:showAsAction="always"
+        android:orderInCategory="101"
+        android:icon="@drawable/bus"
+        android:id="@+id/activity_one"/>
+
+    <item android:title="movie"
+        app:showAsAction="always"
+        android:orderInCategory="102"
+        android:icon="@drawable/icons8_movie_projector_100"
+        android:id="@+id/activity_two"/>
+
+    <item android:title="patient"
+        app:showAsAction="always"
+        android:orderInCategory="103"
+        android:icon="@drawable/icons8_google_forms_filled_100"
+        android:id="@+id/activity_three"/>
+
+    <item android:title="@string/home"
+        app:showAsAction="never"
+        android:orderInCategory="105"
+        android:id="@+id/home"/>
+
+    <item android:title="@string/help"
+        app:showAsAction="never"
+        android:id="@+id/help"/>
+
+</menu>

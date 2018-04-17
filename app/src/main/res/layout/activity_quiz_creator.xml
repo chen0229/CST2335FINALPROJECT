@@ -1,9 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.jihon.cst2335_final_project.QuizCreator">
+    android:orientation="vertical"
+    tools:context="com.example.jihon.cst2335_final_project.Main2Activity">
 
-</android.support.constraint.ConstraintLayout>
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/quiz_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/blue_highlight"
+        android:elevation="15dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+
+
+        <Button android:layout_weight="1"
+        android:text="@string/mc_quiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/create_mc_button"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+            android:background="@android:color/holo_blue_light"/>
+
+        <Button
+            android:layout_weight="1"
+            android:text="@string/tf_quiz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/create_tf_button"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+            android:background="@android:color/holo_green_light"/>
+        <Button
+            android:layout_weight="1"
+            android:text="@string/numeric_quiz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/create_numeric_button"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+            android:background="@android:color/holo_orange_light"/>
+
+
+    <Button
+        android:id="@+id/n_statsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="33dp"
+        android:drawableLeft="@drawable/icons_target"
+        android:text="@string/stats_length" />
+
+
+
+
+</LinearLayout>

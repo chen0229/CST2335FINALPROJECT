@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#dcdfe2"
+    android:id="@+id/mainLayout"
+    tools:context="com.example.jihon.cst2335_final_project.Main2Activity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/blue_highlight"
+        android:elevation="15dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:textColor="#382559"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/my_toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/mainTitle" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/vBox">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/quizButton"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/blue_high_light3"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icons8_faq_80"
+                android:layout_centerInParent="true"
+                android:scaleY="1.7"
+                android:scaleX="1.7"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/transpoButton"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/blue_high_light2"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icons8_bus_80"
+                android:layout_centerInParent="true"
+                android:scaleX="1.7"
+                android:scaleY="1.7"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomBoxes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/movieButton"
+            android:background="@drawable/blue_high_light9">
+
+        </Button>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icons8_movie_projector_80"
+                android:layout_centerInParent="true"
+                android:scaleX="1.7"
+                android:scaleY="1.7"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/patientButton"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+
+                android:background="@drawable/blue_high_light8"
+                android:layout_marginLeft="4dp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icons8_documents_80"
+                android:layout_centerInParent="true"
+                android:scaleX="1.7"
+                android:scaleY="1.7"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+        
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/goButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="23dp"
+        android:elevation="10dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/icons8_play_64" />
+
+
+</RelativeLayout>
+
+<!--android:background="?attr/colorPrimary"  #b9cdea-->
+<!--android:background="#d9e5f4"-->
